@@ -1,0 +1,256 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 4
+Job counts:
+	count	jobs
+	1	all
+	24	salmon_quant
+	25
+
+rule salmon_quant:
+    input: reads/SAMEA103885392_1.fastq, reads/SAMEA103885392_2.fastq, /proj/milovelab/anno/gencode.v29_salmon_0.12.0
+    output: quants/SAMEA103885392/quant.sf
+    jobid: 13
+    wildcards: sample=SAMEA103885392
+
+Submitted job 13 with external jobid 'Submitted batch job 6959039'.
+
+rule salmon_quant:
+    input: reads/SAMEA103885102_1.fastq, reads/SAMEA103885102_2.fastq, /proj/milovelab/anno/gencode.v29_salmon_0.12.0
+    output: quants/SAMEA103885102/quant.sf
+    jobid: 10
+    wildcards: sample=SAMEA103885102
+
+Submitted job 10 with external jobid 'Submitted batch job 6959040'.
+
+rule salmon_quant:
+    input: reads/SAMEA103885043_1.fastq, reads/SAMEA103885043_2.fastq, /proj/milovelab/anno/gencode.v29_salmon_0.12.0
+    output: quants/SAMEA103885043/quant.sf
+    jobid: 19
+    wildcards: sample=SAMEA103885043
+
+Submitted job 19 with external jobid 'Submitted batch job 6959041'.
+
+rule salmon_quant:
+    input: reads/SAMEA103885228_1.fastq, reads/SAMEA103885228_2.fastq, /proj/milovelab/anno/gencode.v29_salmon_0.12.0
+    output: quants/SAMEA103885228/quant.sf
+    jobid: 22
+    wildcards: sample=SAMEA103885228
+
+Submitted job 22 with external jobid 'Submitted batch job 6959042'.
+Finished job 19.
+1 of 25 steps (4%) done
+
+rule salmon_quant:
+    input: reads/SAMEA103885262_1.fastq, reads/SAMEA103885262_2.fastq, /proj/milovelab/anno/gencode.v29_salmon_0.12.0
+    output: quants/SAMEA103885262/quant.sf
+    jobid: 20
+    wildcards: sample=SAMEA103885262
+
+Submitted job 20 with external jobid 'Submitted batch job 6959209'.
+Finished job 10.
+2 of 25 steps (8%) done
+
+rule salmon_quant:
+    input: reads/SAMEA103885413_1.fastq, reads/SAMEA103885413_2.fastq, /proj/milovelab/anno/gencode.v29_salmon_0.12.0
+    output: quants/SAMEA103885413/quant.sf
+    jobid: 7
+    wildcards: sample=SAMEA103885413
+
+Submitted job 7 with external jobid 'Submitted batch job 6959211'.
+Finished job 13.
+3 of 25 steps (12%) done
+
+rule salmon_quant:
+    input: reads/SAMEA103885308_1.fastq, reads/SAMEA103885308_2.fastq, /proj/milovelab/anno/gencode.v29_salmon_0.12.0
+    output: quants/SAMEA103885308/quant.sf
+    jobid: 18
+    wildcards: sample=SAMEA103885308
+
+Submitted job 18 with external jobid 'Submitted batch job 6959215'.
+Finished job 22.
+4 of 25 steps (16%) done
+
+rule salmon_quant:
+    input: reads/SAMEA103885004_1.fastq, reads/SAMEA103885004_2.fastq, /proj/milovelab/anno/gencode.v29_salmon_0.12.0
+    output: quants/SAMEA103885004/quant.sf
+    jobid: 12
+    wildcards: sample=SAMEA103885004
+
+Submitted job 12 with external jobid 'Submitted batch job 6959255'.
+Finished job 7.
+5 of 25 steps (20%) done
+
+rule salmon_quant:
+    input: reads/SAMEA103885136_1.fastq, reads/SAMEA103885136_2.fastq, /proj/milovelab/anno/gencode.v29_salmon_0.12.0
+    output: quants/SAMEA103885136/quant.sf
+    jobid: 1
+    wildcards: sample=SAMEA103885136
+
+Finished job 18.
+6 of 25 steps (24%) done
+Submitted job 1 with external jobid 'Submitted batch job 6960420'.
+
+rule salmon_quant:
+    input: reads/SAMEA103885276_1.fastq, reads/SAMEA103885276_2.fastq, /proj/milovelab/anno/gencode.v29_salmon_0.12.0
+    output: quants/SAMEA103885276/quant.sf
+    jobid: 23
+    wildcards: sample=SAMEA103885276
+
+Submitted job 23 with external jobid 'Submitted batch job 6960421'.
+Finished job 20.
+7 of 25 steps (28%) done
+
+rule salmon_quant:
+    input: reads/SAMEA103884949_1.fastq, reads/SAMEA103884949_2.fastq, /proj/milovelab/anno/gencode.v29_salmon_0.12.0
+    output: quants/SAMEA103884949/quant.sf
+    jobid: 21
+    wildcards: sample=SAMEA103884949
+
+Submitted job 21 with external jobid 'Submitted batch job 6960499'.
+Finished job 12.
+8 of 25 steps (32%) done
+
+rule salmon_quant:
+    input: reads/SAMEA103885347_1.fastq, reads/SAMEA103885347_2.fastq, /proj/milovelab/anno/gencode.v29_salmon_0.12.0
+    output: quants/SAMEA103885347/quant.sf
+    jobid: 15
+    wildcards: sample=SAMEA103885347
+
+Submitted job 15 with external jobid 'Submitted batch job 6960554'.
+Finished job 1.
+9 of 25 steps (36%) done
+
+rule salmon_quant:
+    input: reads/SAMEA103885319_1.fastq, reads/SAMEA103885319_2.fastq, /proj/milovelab/anno/gencode.v29_salmon_0.12.0
+    output: quants/SAMEA103885319/quant.sf
+    jobid: 11
+    wildcards: sample=SAMEA103885319
+
+Submitted job 11 with external jobid 'Submitted batch job 6967019'.
+Finished job 23.
+10 of 25 steps (40%) done
+
+rule salmon_quant:
+    input: reads/SAMEA103885182_1.fastq, reads/SAMEA103885182_2.fastq, /proj/milovelab/anno/gencode.v29_salmon_0.12.0
+    output: quants/SAMEA103885182/quant.sf
+    jobid: 3
+    wildcards: sample=SAMEA103885182
+
+Submitted job 3 with external jobid 'Submitted batch job 6967285'.
+Finished job 21.
+11 of 25 steps (44%) done
+
+rule salmon_quant:
+    input: reads/SAMEA103884967_1.fastq, reads/SAMEA103884967_2.fastq, /proj/milovelab/anno/gencode.v29_salmon_0.12.0
+    output: quants/SAMEA103884967/quant.sf
+    jobid: 5
+    wildcards: sample=SAMEA103884967
+
+Submitted job 5 with external jobid 'Submitted batch job 6969076'.
+Finished job 15.
+12 of 25 steps (48%) done
+
+rule salmon_quant:
+    input: reads/SAMEA103885021_1.fastq, reads/SAMEA103885021_2.fastq, /proj/milovelab/anno/gencode.v29_salmon_0.12.0
+    output: quants/SAMEA103885021/quant.sf
+    jobid: 14
+    wildcards: sample=SAMEA103885021
+
+Submitted job 14 with external jobid 'Submitted batch job 6980534'.
+Finished job 11.
+13 of 25 steps (52%) done
+
+rule salmon_quant:
+    input: reads/SAMEA103884919_1.fastq, reads/SAMEA103884919_2.fastq, /proj/milovelab/anno/gencode.v29_salmon_0.12.0
+    output: quants/SAMEA103884919/quant.sf
+    jobid: 2
+    wildcards: sample=SAMEA103884919
+
+Submitted job 2 with external jobid 'Submitted batch job 6983390'.
+Finished job 3.
+14 of 25 steps (56%) done
+
+rule salmon_quant:
+    input: reads/SAMEA103885218_1.fastq, reads/SAMEA103885218_2.fastq, /proj/milovelab/anno/gencode.v29_salmon_0.12.0
+    output: quants/SAMEA103885218/quant.sf
+    jobid: 8
+    wildcards: sample=SAMEA103885218
+
+Submitted job 8 with external jobid 'Submitted batch job 6986392'.
+Finished job 5.
+15 of 25 steps (60%) done
+
+rule salmon_quant:
+    input: reads/SAMEA103885368_1.fastq, reads/SAMEA103885368_2.fastq, /proj/milovelab/anno/gencode.v29_salmon_0.12.0
+    output: quants/SAMEA103885368/quant.sf
+    jobid: 16
+    wildcards: sample=SAMEA103885368
+
+Submitted job 16 with external jobid 'Submitted batch job 6987043'.
+Finished job 2.
+16 of 25 steps (64%) done
+
+rule salmon_quant:
+    input: reads/SAMEA103885111_1.fastq, reads/SAMEA103885111_2.fastq, /proj/milovelab/anno/gencode.v29_salmon_0.12.0
+    output: quants/SAMEA103885111/quant.sf
+    jobid: 24
+    wildcards: sample=SAMEA103885111
+
+Submitted job 24 with external jobid 'Submitted batch job 6988451'.
+Finished job 14.
+17 of 25 steps (68%) done
+
+rule salmon_quant:
+    input: reads/SAMEA103885157_1.fastq, reads/SAMEA103885157_2.fastq, /proj/milovelab/anno/gencode.v29_salmon_0.12.0
+    output: quants/SAMEA103885157/quant.sf
+    jobid: 6
+    wildcards: sample=SAMEA103885157
+
+Submitted job 6 with external jobid 'Submitted batch job 6988600'.
+Finished job 16.
+18 of 25 steps (72%) done
+
+rule salmon_quant:
+    input: reads/SAMEA103884898_1.fastq, reads/SAMEA103884898_2.fastq, /proj/milovelab/anno/gencode.v29_salmon_0.12.0
+    output: quants/SAMEA103884898/quant.sf
+    jobid: 4
+    wildcards: sample=SAMEA103884898
+
+Submitted job 4 with external jobid 'Submitted batch job 6988604'.
+Finished job 8.
+19 of 25 steps (76%) done
+
+rule salmon_quant:
+    input: reads/SAMEA103885284_1.fastq, reads/SAMEA103885284_2.fastq, /proj/milovelab/anno/gencode.v29_salmon_0.12.0
+    output: quants/SAMEA103885284/quant.sf
+    jobid: 17
+    wildcards: sample=SAMEA103885284
+
+Submitted job 17 with external jobid 'Submitted batch job 6988612'.
+Finished job 6.
+20 of 25 steps (80%) done
+
+rule salmon_quant:
+    input: reads/SAMEA103885059_1.fastq, reads/SAMEA103885059_2.fastq, /proj/milovelab/anno/gencode.v29_salmon_0.12.0
+    output: quants/SAMEA103885059/quant.sf
+    jobid: 9
+    wildcards: sample=SAMEA103885059
+
+Submitted job 9 with external jobid 'Submitted batch job 6989438'.
+Finished job 4.
+21 of 25 steps (84%) done
+Finished job 24.
+22 of 25 steps (88%) done
+Finished job 17.
+23 of 25 steps (92%) done
+Finished job 9.
+24 of 25 steps (96%) done
+
+localrule all:
+    input: quants/SAMEA103884898/quant.sf, quants/SAMEA103884919/quant.sf, quants/SAMEA103884949/quant.sf, quants/SAMEA103884967/quant.sf, quants/SAMEA103885004/quant.sf, quants/SAMEA103885021/quant.sf, quants/SAMEA103885043/quant.sf, quants/SAMEA103885059/quant.sf, quants/SAMEA103885102/quant.sf, quants/SAMEA103885111/quant.sf, quants/SAMEA103885136/quant.sf, quants/SAMEA103885157/quant.sf, quants/SAMEA103885182/quant.sf, quants/SAMEA103885218/quant.sf, quants/SAMEA103885228/quant.sf, quants/SAMEA103885262/quant.sf, quants/SAMEA103885276/quant.sf, quants/SAMEA103885284/quant.sf, quants/SAMEA103885308/quant.sf, quants/SAMEA103885319/quant.sf, quants/SAMEA103885347/quant.sf, quants/SAMEA103885368/quant.sf, quants/SAMEA103885392/quant.sf, quants/SAMEA103885413/quant.sf
+    jobid: 0
+
+Finished job 0.
+25 of 25 steps (100%) done
+Complete log: .snakemake/log/2019-01-14T152537.045158.snakemake.log
