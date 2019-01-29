@@ -3,3 +3,19 @@
 %\VignetteIndexEntry{Salmon quantifications for human macrophage immune response experiment}
 -->
 
+# Experiment and sample description
+
+This package provides the output of running Salmon on a set of 24
+RNA-seq samples from Alasoo, et al. "Shared genetic effects on
+chromatin and gene expression indicate a role for enhancer priming in
+immune response", published in Nature Genetics, January 2018 
+[doi: 10.1038/s41588-018-0046-7](https://doi.org/10.1038/s41588-018-0046-7).
+
+6 donors were selected from those that had publicly available reads in
+ENA. The selection procress is recorded in the file
+`inst/scripts/ena_download.R`, the donors were chosen as all female,
+the sample having been received as frozen, and then the top 6 were
+chosen based on mean purity as recorded by the study authors.
+
+# Salmon quantification
+

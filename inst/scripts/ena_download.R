@@ -28,4 +28,3 @@ for (i in seq_len(24)) {
   system(paste0("cat ", paste(paste0(run.list[[i]],".sra_1.fastq"),collapse=" ")," > ",names(run.list)[i],"_1.fastq"))
   system(paste0("cat ", paste(paste0(run.list[[i]],".sra_2.fastq"),collapse=" ")," > ",names(run.list)[i],"_2.fastq"))
 }
-
