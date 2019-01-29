@@ -45,6 +45,11 @@ coldata <- coldata[,c(1,2,3,5)]
 coldata
 ```
 
+# Acknowledgments 
+
+Thanks to the study authors for posting their data publicly and
+clearly labelling their data.
+
 # Session info
 
 ```{r}
