@@ -1,0 +1,21 @@
+{
+    "read_files": "[ reads/SAMEA103885021_1.fastq, reads/SAMEA103885021_2.fastq]",
+    "expected_format": "ISR",
+    "compatible_fragment_ratio": 1.0,
+    "num_compatible_fragments": 34531636,
+    "num_assigned_fragments": 34531636,
+    "num_frags_with_consistent_mappings": 33740130,
+    "num_frags_with_inconsistent_or_orphan_mappings": 791527,
+    "MSF": 0,
+    "OSF": 0,
+    "ISF": 298,
+    "MSR": 0,
+    "OSR": 0,
+    "ISR": 33740130,
+    "SF": 225100,
+    "SR": 566129,
+    "MU": 0,
+    "OU": 0,
+    "IU": 0,
+    "U": 0
+}
