@@ -19,3 +19,34 @@ chosen based on mean purity as recorded by the study authors.
 
 # Salmon quantification
 
+[Salmon](https://combine-lab.github.io/salmon/)
+version 0.12.0 was run using 
+[Gencode](https://www.gencodegenes.org/)
+human reference transcripts v29, with a 
+[snakemake](https://snakemake.readthedocs.io/en/stable/) 
+script that can be seen in `inst/scripts/Snakemake` and with 
+log output in `inst/scripts/snakemake.log`. 
+
+The quantification output is in the `inst/extdata/quant`
+directory. The `quant.sf` files have been gzipped to preserve space,
+so they are stored as `quant.sf.gz`. There are 20 Gibbs inferential
+replicates for each sample.
+
+# Sample information
+
+The `inst/scripts/ena_downloads.R` R script also shows how the column
+data file `coldata.csv` was generated. This file contains the
+phenotypic information about the 24 samples:
+
+```{r}
+dir <- system.file("extdata", package="macrophage")
+coldata <- read.csv(file.path(dir,"coldata.csv"))
+coldata <- coldata[,c(1,2,3,5)]
+coldata
+```
+
+# Session info
+
+```{r}
+sessionInfo()
+```
