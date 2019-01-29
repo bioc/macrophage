@@ -1,0 +1,12 @@
+Package: macrophage
+Title: Human macrophages immune response
+Version: 0.99.0
+Author: Michael Love
+Maintainer: Michael Love <michaelisaiahlove@gmail.com>
+Description: This package provides the output of running Salmon
+  on a set of XXX RNA-seq samples from ...
+  For details on version numbers and how the samples were processed
+  see the package vignette.
+License: GPL (>= 2)
+Suggests: knitr
+VignetteBuilder: knitr
