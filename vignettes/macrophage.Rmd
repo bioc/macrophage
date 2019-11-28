@@ -45,6 +45,12 @@ coldata <- coldata[,c(1,2,3,5)]
 coldata
 ```
 
+# SummarizedExperiment
+
+The package also contains a summarized experiment object created
+using the script in `inst/scripts/gse_create.R`. This object can be
+loaded with `data("gse")`.
+
 # Acknowledgments 
 
 Thanks to the study authors for posting their data publicly and
